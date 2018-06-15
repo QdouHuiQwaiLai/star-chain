@@ -7,7 +7,7 @@ module.exports = {
     entry: ['babel-polyfill', './src/main.js'],
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, 'dist')
+        path: path.resolve(__dirname, './')
     },
     devServer: {
             // 等发布的时候在设置为'./dist'
