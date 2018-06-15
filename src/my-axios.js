@@ -22,7 +22,7 @@ axios.interceptors.request.use(config => {
   })
 
 // 请求基础路径
-axios.defaults.baseURL = 'http://127.0.0.1:8000/'
+axios.defaults.baseURL = 'http://132.232.12.217:8000/'
 
 // 带cookie请求
 axios.defaults.withCredentials = true

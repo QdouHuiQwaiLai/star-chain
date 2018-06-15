@@ -30,6 +30,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1:8080',
     '127.0.0.1',
     'localhost:8080',
+    '132.232.12.217',
 ]
 
 
@@ -68,6 +69,7 @@ MIDDLEWARE = [
 CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
     'localhost:8080',
+    '132.232.12.217',
 )
 
 CORS_ALLOW_CREDENTIALS = True
