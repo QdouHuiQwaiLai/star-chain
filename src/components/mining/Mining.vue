@@ -8,7 +8,7 @@
 
 <script>
 import TitleBar from '../Title-Bar.vue'
-import MiningCore from './Mining-Core.vue'
+import MiningCore from './Mining-core.vue'
 import MiningRank from './Mining-rank.vue'
 
 export default {
