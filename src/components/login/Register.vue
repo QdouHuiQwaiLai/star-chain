@@ -60,12 +60,12 @@ export default {
         async rigister() {
             try{
                 const {data: {status}} = await axios.post(
-                    'http://127.0.0.1:8000/user/register/', qs.stringify(this.formData)
+                    'user/register/', qs.stringify(this.formData)
                 )
                 console.log(status)
                 // 如果登录成功，登录用户并且跳转到矿机页面
                 const req = await axios.post(
-                    'http://127.0.0.1:8000/user/login/', qs.stringify({
+                    'user/login/', qs.stringify({
                         username: this.formData.username,
                         password: this.formData.password
                     })
