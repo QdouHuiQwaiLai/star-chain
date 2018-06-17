@@ -82,5 +82,5 @@ module.exports = {
             }
         ]
     },
-    mode: 'development' //不压缩代码
+    //mode: 'development' //不压缩代码
 }
