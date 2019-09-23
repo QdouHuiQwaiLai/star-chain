@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8ae10d1a-d8b2-4662-8b16-4e4d3f3775ae" name="Default" comment="" />
+    <list default="true" id="8ae10d1a-d8b2-4662-8b16-4e4d3f3775ae" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/api/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/api/settings.py" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/api/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1169">
-              <caret line="75" selection-start-line="75" selection-end-line="77" selection-end-column="19" />
+            <state relative-caret-position="309">
+              <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -173,7 +175,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="636" />
+    <option name="x" value="539" />
     <option name="y" value="23" />
     <option name="width" value="1182" />
     <option name="height" value="979" />
@@ -339,15 +341,15 @@
       <updated>1528605227614</updated>
       <workItem from="1569230433371" duration="105000" />
       <workItem from="1569230605286" duration="1131000" />
-      <workItem from="1569232914141" duration="2825000" />
+      <workItem from="1569232914141" duration="3079000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4061000" />
+    <option name="totallyTimeSpent" value="4315000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="636" y="23" width="1182" height="979" extended-state="0" />
+    <frame x="539" y="23" width="1182" height="979" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.2266289" side_tool="true" weight="0.21333334" />
@@ -604,8 +606,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/api/settings.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1169">
-          <caret line="75" selection-start-line="75" selection-end-line="77" selection-end-column="19" />
+        <state relative-caret-position="309">
+          <caret line="80" column="6" selection-start-line="80" selection-start-column="6" selection-end-line="80" selection-end-column="6" />
         </state>
       </provider>
     </entry>
