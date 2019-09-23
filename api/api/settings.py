@@ -25,13 +25,17 @@ SECRET_KEY = '3m6zq&s7=xcp#-r_w2+@p%6msch4c2x&vso6d3%ajk2urh=oh7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
+# ALLOWED_HOSTS = [
+#     'http://127.0.0.1:8080',
+#     '127.0.0.1:8080',
+#     '127.0.0.1',
+#     'localhost:8080',
+#     '101.200.120.4',
+#     '132.232.12.217',
+# ]
+
 ALLOWED_HOSTS = [
-    'http://127.0.0.1:8080',
-    '127.0.0.1:8080',
-    '127.0.0.1',
-    'localhost:8080',
-    '101.200.120.4',
-    '132.232.12.217',
+    '*'
 ]
 
 
