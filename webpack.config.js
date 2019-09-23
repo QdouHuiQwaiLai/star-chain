@@ -7,12 +7,14 @@ module.exports = {
     entry: ['babel-polyfill', './src/main.js'],
     output: {
         filename: 'bundle.js',
-        path: path.resolve(__dirname, './')
+        path: path.resolve(__dirname, './'),
+        // disableHostCheck: true
     },
     devServer: {
             // 等发布的时候在设置为'./dist'
           contentBase: './',
           hot: true,
+          disableHostCheck: true,
         },
     devtool: 'source-map',
     plugins: [
