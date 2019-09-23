@@ -13,6 +13,8 @@ module.exports = {
     devServer: {
             // 等发布的时候在设置为'./dist'
           contentBase: './',
+          host: '0.0.0.0',
+          port: 8080,
           hot: true,
           disableHostCheck: true,
         },
